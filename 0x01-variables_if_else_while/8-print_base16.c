@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /*
- * main - prints the numbers in base 16
- * Return: 0
+ * main - Entry point
+ *
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
 	int num;
