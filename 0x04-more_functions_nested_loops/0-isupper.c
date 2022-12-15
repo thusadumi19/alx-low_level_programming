@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _isuper - checks if parameter is an uppercase character
+ * _isupper - checks if parameter is an uppercase character
  * @c: input character
  * Return: 1 if uppercase, otherwise 0
  */
 
-int _isuper(int c)
+int _isupper(int c)
 {
 	if (c >= 65 && c <= 98)
 	{
