@@ -1,5 +1,5 @@
 #include "lists.h"
-#include <stdlib.h
+#include <stdlib.h>
 /**
  * delete_nodeint_at_index - deletes the node at index
  * @head: double pointer
@@ -31,4 +31,5 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		temp->next = next->next;
 		free(next);
 	return (1);
+
 }
